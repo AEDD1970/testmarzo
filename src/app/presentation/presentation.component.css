@@ -1,0 +1,23 @@
+.container{
+    margin-top: 10%!important;
+}
+.title h3{
+    line-height: 1.17857;
+    font-size: 56px;
+    letter-spacing: -.5px;
+}
+.img{
+width: 100%;
+height: 80%;
+}
+.btn{
+    background-color: #007bff!important;
+    
+}
+.btn a{
+    color: antiquewhite;
+}
+a:link
+{
+text-decoration:none;
+}

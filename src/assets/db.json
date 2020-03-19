@@ -1,0 +1,105 @@
+{ 
+   "data":
+    [
+        {
+            "documento": "001",
+            "name_lastname": "Alexis Duque",
+            "init_date": "11/03/2020",
+            "final_date": "12/03/2020",
+            "time_init_turn": "12:00",
+            "time_final_turn": "8:00",
+            "time_init_extra_hour": "8:00",
+            "time_final_extra_hour": "9:00"
+        },
+        {
+            "documento": "002",
+            "name_lastname": "Test numero dos",
+            "init_date": "15/03/2020",
+            "final_date": "18/03/2020",
+            "time_init_turn": "8:00",
+            "time_final_turn": "17:00",
+            "time_init_extra_hour": "18:00",
+            "time_final_extra_hour": "22:00"
+        },
+        {
+            "documento": "003",
+            "name_lastname": "Test numero tres",
+            "init_date": "20/02/2020",
+            "final_date": "20/02/2020",
+            "time_init_turn": "8:00",
+            "time_final_turn": "17:00",
+            "time_init_extra_hour": "18:00",
+            "time_final_extra_hour": "20:00"
+        },
+        {
+            "documento": "004",
+            "name_lastname": "Test numero cuatro",
+            "init_date": "21/02/2020",
+            "final_date": "15/03/2020",
+            "time_init_turn": "8:00",
+            "time_final_turn": "17:00",
+            "time_init_extra_hour": "17:00",
+            "time_final_extra_hour": "22:00"
+        },
+        {
+            "documento": "005",
+            "name_lastname": "Test numero cinco",
+            "init_date": "03/03/2020",
+            "final_date": "10/03/2020",
+            "time_init_turn": "8:00",
+            "time_final_turn": "18:00",
+            "time_init_extra_hour": "18:00",
+            "time_final_extra_hour": "21:00"
+        },
+        {
+            "documento": "006",
+            "name_lastname": "Test numero seis",
+            "init_date": "05/03/2020",
+            "final_date": "12/03/2020",
+            "time_init_turn": "8:00",
+            "time_final_turn": "12:00",
+            "time_init_extra_hour": "17:00",
+            "time_final_extra_hour": "19:00"
+        },
+        {
+            "documento": "007",
+            "name_lastname": "Test numero siete",
+            "init_date": "29/02/2020",
+            "final_date": "12/03/2020",
+            "time_init_turn": "18:00",
+            "time_final_turn": "24:00",
+            "time_init_extra_hour": "01:00",
+            "time_final_extra_hour": "05:00"
+        },
+        {
+            "documento": "008",
+            "name_lastname": "Test numero ocho",
+            "init_date": "05/03/2020",
+            "final_date": "12/03/2020",
+            "time_init_turn": "8:00",
+            "time_final_turn": "12:00",
+            "time_init_extra_hour": "17:00",
+            "time_final_extra_hour": "19:00"
+        },
+        {
+            "documento": "009",
+            "name_lastname": "Test numero nueve",
+            "init_date": "15/03/2020",
+            "final_date": "15/03/2020",
+            "time_init_turn": "8:00",
+            "time_final_turn": "12:00",
+            "time_init_extra_hour": "17:00",
+            "time_final_extra_hour": "19:00"
+        },
+        {
+            "documento": "010",
+            "name_lastname": "Test numero diez",
+            "init_date": "03/03/2020",
+            "final_date": "06/03/2020",
+            "time_init_turn": "21:00",
+            "time_final_turn": "06:00",
+            "time_init_extra_hour": "07:00",
+            "time_final_extra_hour": "10:00"
+        }
+    ]
+}
