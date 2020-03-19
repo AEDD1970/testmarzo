@@ -16,11 +16,14 @@ export class CreateRecordsComponent implements OnInit {
     get documento(){
       return this.registerForm.get('documento')
     }
+    get name_lastname(){
+      return this.registerForm.get('name_lastname')
+    }
 
    
      registerForm = this.formBuilder.group({
       documento : ['', Validators.required],
-      name_lastname: [''],
+      name_lastname: ['', Validators.required],
       init_date:[''],
       final_date:[''],
       time_init_turn:[''],
@@ -45,7 +48,7 @@ export class CreateRecordsComponent implements OnInit {
     obj.time_final_extra_hour = this.registerForm.get('time_final_extra_hour').value;
     this.service.createPerson(obj).then(r => {
       console.log(r);
-      alert("hola");
+      alert("usuario creado con exito");
       this.refrescar();
     })
 

@@ -1,5 +1,9 @@
 # Proyecttest
 
+La ruta de la base de datos del json-server esta en src/assets. Y la pueden ejecutar usando `json-server --watch db.json`
+URL en uso: 
+* `https://jsonplaceholder.typicode.com`
+* `localhost:3000/db`
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
 ## Development server

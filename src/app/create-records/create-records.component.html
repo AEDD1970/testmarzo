@@ -15,7 +15,12 @@
      </div>
      <div class="form-group">
         <label for="name_lastname">nombre  y apellido</label>
-        <input type="text" class="form-control" formControlName="name_lastname" >        
+        <input type="text" class="form-control" formControlName="name_lastname" >  
+        <div *ngIf="name_lastname.invalid && (name_lastname.dirty || name_lastname.touched)" class="alert alert-danger">
+            <div *ngIf="name_lastname.errors.required">
+                sorry! no dejar campo en blanco
+            </div>
+        </div>      
     </div>
     <div class="form-group">
         <label for="init_date">fecha inicio</label>
